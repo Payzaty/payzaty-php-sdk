@@ -1,0 +1,26 @@
+{
+    "name": "payzaty/client",
+    "description": "PHP Client for Payzaty.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Payzaty payment",
+            "email": "info@payzaty.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Payzaty\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Payzaty\\PayzatyServiceProvider"
+            ]
+        }
+    }
+}
