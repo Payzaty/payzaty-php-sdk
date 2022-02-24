@@ -9,7 +9,7 @@
             "email": "info@payzaty.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "v1.1.0",
     "require": {},
     "autoload": {
         "psr-4": {
